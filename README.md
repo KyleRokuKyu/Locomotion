@@ -1,6 +1,8 @@
 # Locomotion
 A Logic World mod that adds movement to the game
 
+--------------
+
 Pistons, while super neat to look at
 
 Are still VERY buggy.
@@ -14,7 +16,7 @@ But don't be surprised if they do some... stuff
 
 ![SocketsSocketing](https://user-images.githubusercontent.com/44553820/141044319-ec6ef0bc-e133-4cd6-b7ea-99728772a014.gif)
 
-
+--------------
 
 Player detector, as far as I tested, is fully functioning and should be good to go.  Enjoy :D
 
