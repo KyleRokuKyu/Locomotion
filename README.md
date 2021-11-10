@@ -1,8 +1,11 @@
 # Locomotion
 A Logic World mod that adds movement to the game
 
-![alt text]
-(https://i.imgur.com/nsnaERm.gif)
+![Multi Level Pistoning.  Just like your friend from highschool told you about]
+(ReadMeStuff/MultiLevelPistoning.gif)
 
-![alt text]
-(https://i.imgur.com/AntEjh1.gif)
+![I swear, it works perfectly]
+(ReadMeStuff/Flawless.gif)
+
+![Player Detector]
+(ReadMeStuff/Flawless.gif)
