@@ -1,0 +1,64 @@
+################################
+# Locomotion Moving Components #
+################################
+
+Piston:
+    column: "Locomotion"
+    category: "Reactive"
+    prefab:
+        blocks:
+            -   # The head of the piston
+                scale: (2, 0.5, 2)
+                position: (0, 1.5, 0)
+                material: Board
+            -   # The pole of the piston
+                scale: (0.5, 0, 0.5)
+                position: (0, 0.5, 0)
+                color: 777777
+            -   # The body of the piston
+                scale: (2, 1.5, 2)
+                position: (0, 0, 0)
+                color: 777777
+        inputs:
+            -
+                position: (1, 1, 0)
+                rotation: (-90, -90, 0)
+                length: 0.6
+    clientCode: Locomotion.Piston
+    codeInfoFloats:
+        - 0.1
+        - 1
+    placingRules:
+        gridPlacingDimensions: (2, 2)
+SmugBanner:
+    column: "Locomotion"
+    category: "Decorative"
+    prefab:
+        blocks:
+            -   # The display
+                scale: (10, 0.5, 10)
+                position: (0, 0, 0)
+                color: 070707
+    clientCode: Locomotion.Banner
+    codeInfoStrings:
+        - "Locomotion/images/logo.png"
+Detector:
+    column: "Locomotion"
+    category: "Reactive"
+    prefab:
+        blocks:
+            -   # DetectorBody
+                scale: (1, 1, 1)
+                position: (0, 0, 0)
+                color: 888888
+            -   # DetectorFace
+                scale: (0.75, 0.1, 0.75)
+                position: (0, 1.05, 0)
+                color: ff0000
+        outputs:
+            -
+                position: (0.5, 0.5, 0)
+                rotation: (-90, -90, 0)
+                length: 0.6
+    clientCode: Locomotion.Detector
+    logicCode: Locomotion.DetectorLogic

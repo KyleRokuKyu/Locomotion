@@ -1,0 +1,11 @@
+# Interaction sound effects
+
+Locomotion.PistonUp:
+    OutputGroup: InteractionSFX
+    Clips:
+        - Locomotion/sounds/clips/PistonUp.wav
+		
+Locomotion.PistonDown:
+    OutputGroup: InteractionSFX
+    Clips:
+        - Locomotion/sounds/clips/PistonDown.wav
