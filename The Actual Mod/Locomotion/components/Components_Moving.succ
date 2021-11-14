@@ -42,6 +42,16 @@ SmugBanner:
     clientCode: Locomotion.Banner
     codeInfoStrings:
         - "Locomotion/images/logo.png"
+IntegratedCircuit:
+    column: "Locomotion"
+    category: "Decorative"
+    prefab:
+        blocks:
+            -   # CircuitBody
+                scale: (1, 1, 1)
+                position: (0, 0, 0)
+                color: 888888
+    clientCode: Locomotion.IntegratedCircuit
 Detector:
     column: "Locomotion"
     category: "Reactive"
