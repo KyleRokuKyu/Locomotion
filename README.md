@@ -21,3 +21,12 @@ But don't be surprised if they do some... stuff
 Player detector, as far as I tested, is fully functioning and should be good to go.  Enjoy :D
 
 ![PlayerDetector](https://user-images.githubusercontent.com/44553820/141044326-211c4739-2004-44ba-8c6d-f8582b2994ca.gif)
+
+--------------
+
+Integrated Circuit, it's really just a self sizing box that culls renderers and colliders.
+You can colorize it too :D
+
+![ShortenedWeiner1](https://user-images.githubusercontent.com/44553820/141698838-03b24086-30ac-499a-a0d7-f6768d080699.gif)
+
+![ShortenedWeiner2](https://user-images.githubusercontent.com/44553820/141698843-387f47e0-1d57-445f-be11-5dc1cc10d2d4.gif)
